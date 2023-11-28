@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:Dept="http://tuc.web.engineering/department#"
+         >
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptMedieninformatik">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Medien Informatik</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Medieninformatik</Dept:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptBetriebssysteme">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Betriebssysteme</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Betriebssysteme</Dept:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptKommunikationsnetze">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Kommunikationsnetze</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Kommunikationsnetze</Dept:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptBWLII–MarketingundHandelsbetriebslehre">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of BWL II – Marketing und Handelsbetriebslehre</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur BWL II – Marketing und Handelsbetriebslehre</Dept:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/department#DeptFachgruppenleiterDeutschalsFremdsprachedesZentrumsfürFremdsprachen">
+    <rdf:type rdf:resource="http://tuc.web.engineering/department#"/>
+    <rdfs:comment>This is department of Fachgruppenleiter Deutsch als Fremdsprache des Zentrums für Fremdsprachen</rdfs:comment>
+    <Dept:hasDeptId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Dept:hasDeptId>
+    <Dept:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Professur Fachgruppenleiter Deutsch als Fremdsprache des Zentrums für Fremdsprachen </Dept:hasName>
+  </rdf:Description>
+
+</rdf:RDF>

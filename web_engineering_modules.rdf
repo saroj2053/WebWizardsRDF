@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:module="http://tuc.web.engineering/module#"
+         xmlns:dept="http://tuc.web.engineering/department#"
+         >
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#Medienretrieval">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578170</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medienretrieval</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medienretrieval beschäftigt sich mit der Suche in multimedialen Datenbeständen. Der vorhergehende Besuch der Veranstaltung Information Retrieval I wird empfohlen, ist aber nicht notwendig. </module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Medieninformatik"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#VerlässlicheSysteme">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">565130</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verlässliche Systeme</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grundlegende Ansätze und Maße der Fehlertoleranz; Störungsmodelle; Techniken der Fehlerdiagnose; Fehlertoleranz auf Systemebene; Fehler in Software; Modellierung</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Betriebssysteme"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+  
+ 
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#NextGenerationInternet">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435760</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Next Generation Internet</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ausgewählte Internet-Anwendungen; Dienste-Plattformen und Architekturen; Overlay Netze; Ausgewählte Netzmechanismen</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Kommunikationsnetze "/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</module:hasCreditPoints>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#NetworkPlanning">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435767</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Planning</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einführung in die Netzplanung; Verkehrsmodellierung und Bedarfsanalyse; Netztopologieentwurf; Netzdimensionierung</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Kommunikationsnetze "/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</module:hasCreditPoints>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#IPNetworkingLab">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435759</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IP Networking Lab</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermittlung von Grundlagenwissen zu IP- und Ethernet-Netzen, Aufbau und Konfiguration eines lokalen Netzes (Interface- und ARP-Analyse), Aufbau und Konfiguration eines statisch vermittelten Netzes (Router-Konfiguration, ICMP- und Proxy-ARP-Analyse), Analyse von Transport-Protokollen (UDP und TCP) einschließlich IP-Fragmentierung, TCP Retransmission und TCP Congestion Control </module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Kommunikationsnetze "/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</module:hasCreditPoints>
+  </rdf:Description>
+
+ 
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#NetworkSecurity">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435480</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Security</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einführung und Grundlagen: Begriffe, Bedrohungsszenarien, Sicherheitsmechanismen, mathematische Grundlagen der Verschlüsselung; Verschlüsselungsverfahren, Schlüsselmanagement und Zertifikate, PKI-Infrastruktur; Angriffe im Internet: Überblick und Klassifizierung von Angriffen, Praxisbeispiele (DoSAttacken, Angriffe auf Routing und DNS), Abwehr und Vermeidung von Angriffen</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Kommunikationsnetze "/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</module:hasCreditPoints>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#MobileNetworks">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435763</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mobile Networks</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Einführung und technische Grundlagen Eigenschaften des Mobilfunkkanals (Funkausbreitung); Übertragungstechnische Grundlagen (Multiplex, Duplex, Modulation, Quellen- und Kanalcodierung, Fehlerschutz, Vielfachzugriff); Zellularprinzip</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#Kommunikationsnetze "/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</module:hasCreditPoints>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#B2BMarketing">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">613001</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2B Marketing</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Vorlesung thematisiert die theoretischen und praktischen Aspekte des Business to Business Marketing bezogen auf die Besonderheiten der Marktbearbeitung von Unternehmen aus Technologiesektoren. Hierzu werden in der Vorlesung die theoretischen Modelle und Methoden intensiv behandelt.</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#BWLII–MarketingundHandelsbetriebslehre"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</module:hasCreditPoints>
+  </rdf:Description>
+
+ 
+  <rdf:Description rdf:about="http://tuc.web.engineering/module#DeutschalsFremdspracheII(Niveau A2)">
+    <rdf:type rdf:resource="http://tuc.web.engineering/module#"/>
+    <module:hasModuleNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136135</module:hasModuleNumber>
+    <module:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deutsch als Fremdsprache II (Niveau A2)</module:hasName>
+    <module:hasContent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erweiterung und Festigung der Lexik u.a. zu Themen wie Ausbildung, Tätigkeiten, Hobbys, Freizeit und Beruf; Entdeckung und Übung neuer grammatischer Strukturen, z.B. trennbare und untrennbare Verben, reflexive Verben, Festigung der Zeitformen, Übungen zur Wortstellung in verschiedenen Satzkonstruktionen; Übungen zur deutschen Phonetik</module:hasContent>
+    <dept:hasName rdf:resource="http://tuc.web.engineering/department#FachgruppenleiterDeutschalsFremdsprachedesZentrumsfürFremdsprachen"/>
+    <module:hasCreditPoints rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</module:hasCreditPoints>
+  </rdf:Description>
+
+</rdf:RDF>
